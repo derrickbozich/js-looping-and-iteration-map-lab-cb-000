@@ -11,3 +11,7 @@ function nameToAttributes(drivers){
   });  
     return arr;
 }
+
+function attributesToPhrase(drivers){
+  
+}
