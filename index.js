@@ -10,4 +10,5 @@ function nameToAttributes(drivers){
     return obj;
   })
     debugger
+    return arr;
 }
