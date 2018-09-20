@@ -9,6 +9,6 @@ function nameToAttributes(drivers){
     obj = Object.assign({},{firstName: nameArray[0], lastName: nameArray[1]})
     return obj;
   })
-    debugger
+    
     return arr;
 }
