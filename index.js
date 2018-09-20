@@ -2,3 +2,10 @@
 function lowerCaseDrivers(drivers){
   return drivers.map(d => d.toLowerCase())
 }
+
+function nameToAttributes(drivers){
+  drivers.map(function(d){
+    nameArray = d.split(" ");
+    Object.assign({},{firstName: nameArray[0], lastName: nameArray[1]} )
+  })
+}
